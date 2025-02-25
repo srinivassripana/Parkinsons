@@ -13,7 +13,7 @@ export default function ParkinsonsLogo() {
         initial={{ opacity: 0, y: -50, scale: 0.5 }}
         animate={
           moveToCorner
-            ? { x: "-45vw", y: "-40vh", scale: 0.3, opacity: 1 } // More to the left
+            ? { x: "-47vw", y: "-42vh", scale: 0.3, opacity: 1 } // More to the left
             : { opacity: 1, y: [0, -30, 0, -15, 0], scale: 1 }
         }
         transition={{
